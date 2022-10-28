@@ -1,5 +1,5 @@
 <?php
-
-echo "AUTH_KEY: ".$_ENV["AUTH_KEY"];
+$url = getenv('BASE_URL');
+echo "URL: ".$url;
 
 ?>
